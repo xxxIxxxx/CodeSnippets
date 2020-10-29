@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>initBtn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#name#&gt;Btn = UIButton(type: .custom)
+        &lt;#name#&gt;.titleLabel?.font = &lt;#font#&gt;
+        &lt;#name#&gt;.setTitle(&lt;#T##title: String?##String?#&gt;, for: &lt;#T##UIControl.State#&gt;)
+        &lt;#name#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: &lt;#T##UIControl.State#&gt;)
+        &lt;#name#&gt;.layer.cornerRadius = &lt;#double#&gt;
+        &lt;#name#&gt;.layer.masksToBounds = true
+        &lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
+        &lt;#view#&gt;.snp.makeConstraints { make in
+            make.&lt;#code#&gt;
+            make.&lt;#code#&gt;
+            make.&lt;#code#&gt;
+            make.&lt;#code#&gt;
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>420FE90D-6DC5-44E1-B0E3-2D6555B9D0AE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift-initBtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

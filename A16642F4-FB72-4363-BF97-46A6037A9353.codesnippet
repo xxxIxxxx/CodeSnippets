@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>initTextF</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> UITextField *&lt;#tfd#&gt; = [UITextField new];
+    [self.view addSubview:&lt;#tfd#&gt;];
+    &lt;#tfd#&gt;.placeholder = &lt;#ple#&gt;;
+    &lt;#tfd#&gt;.font = &lt;#font#&gt;;
+    &lt;#tfd#&gt;.tintColor = [UIColor blackColor];
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A16642F4-FB72-4363-BF97-46A6037A9353</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>OC-initTfd</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

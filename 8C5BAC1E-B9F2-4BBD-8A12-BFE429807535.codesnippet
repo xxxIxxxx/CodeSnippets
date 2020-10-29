@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>initView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#name#&gt;View = UIView()
+&lt;#name#&gt;.backgroundColor = &lt;#color#&gt;
+        &lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
+        &lt;#view#&gt;.snp.makeConstraints { make in
+            make.&lt;#code#&gt;
+            make.&lt;#code#&gt;
+            make.&lt;#code#&gt;
+            make.&lt;#code#&gt;
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8C5BAC1E-B9F2-4BBD-8A12-BFE429807535</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift-initView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
