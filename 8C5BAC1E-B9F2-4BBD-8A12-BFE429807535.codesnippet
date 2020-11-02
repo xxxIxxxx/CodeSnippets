@@ -11,6 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>let &lt;#name#&gt;View = UIView()
 &lt;#name#&gt;.backgroundColor = &lt;#color#&gt;
+&lt;#name#&gt;.layer.cornerRadius = &lt;#float#&gt;
+&lt;#name#&gt;.layer.masksToBounds = true
         &lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
         &lt;#view#&gt;.snp.makeConstraints { make in
             make.&lt;#code#&gt;
