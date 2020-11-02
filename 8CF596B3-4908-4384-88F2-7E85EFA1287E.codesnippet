@@ -10,10 +10,12 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>let &lt;#name#&gt;ImgView = UIImageView()
-        &lt;#name#&gt;.contentMode = .scaleAspectFill
-        &lt;#name#&gt;.layer.masksToBounds = true
-        &lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
-        &lt;#view#&gt;.snp.makeConstraints { make in
+&lt;#name#&gt;.image = &lt;#image#&gt;
+&lt;#name#&gt;.contentMode = .scaleAspectFill
+&lt;#name#&gt;.layer.masksToBounds = true
+&lt;#name#&gt;.layer.cornerRadius = &lt;#float#&gt;
+&lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
+&lt;#view#&gt;.snp.makeConstraints { make in
             make.&lt;#code#&gt;
             make.&lt;#code#&gt;
             make.&lt;#code#&gt;
