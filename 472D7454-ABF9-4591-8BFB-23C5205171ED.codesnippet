@@ -3,31 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initLab</string>
+	<string>ssself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#name#&gt;Lab = UILabel()
-&lt;#name#&gt;.text = &lt;#string#&gt;
-&lt;#name#&gt;.font = &lt;#font#&gt;
-&lt;#name#&gt;.textColor = &lt;#color#&gt;
-&lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
-&lt;#view#&gt;.snp.makeConstraints { make in
-    make.&lt;#code#&gt;
-    make.&lt;#code#&gt;
-    make.&lt;#code#&gt;
-    make.&lt;#code#&gt;
-    }</string>
+	<string>guard let strongSelf = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ABF1C36F-9D50-41EE-8FB9-96A9E8C8CA40</string>
+	<string>472D7454-ABF9-4591-8BFB-23C5205171ED</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift-initLab</string>
+	<string>Swift-StrongSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
