@@ -25,9 +25,9 @@
 | initView  | UIView 初始化                 |
 | ssself    | guard let strongSelf = self   |
 | letLab    | UILabel [扩展 1](#扩展-1)     |
-| letView   | UIView [扩展 1](#扩展1)      |
-| letBtn    | UIButton [扩展 1](#扩展 1)    |
-| letImg    | UIImageView [扩展 1](#扩展 1) |
+| letView   | UIView [扩展 1](#扩展-1)      |
+| letBtn    | UIButton [扩展 1](#扩展-1)    |
+| letImg    | UIImageView [扩展 1](#扩展-1) |
 
 # OC
 
