@@ -3,31 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initView</string>
+	<string>letView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#name#&gt;View = UIView()
-&lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
-&lt;#view#&gt;.snp.makeConstraints { make in
-    make.&lt;#code#&gt;
-    make.&lt;#code#&gt;
-    make.&lt;#code#&gt;
-    make.&lt;#code#&gt;
-}
-&lt;#name#&gt;.backgroundColor = &lt;#color#&gt;
-&lt;#name#&gt;.layer.cornerRadius = &lt;#float#&gt;
-&lt;#name#&gt;.layer.masksToBounds = true</string>
+	<string>let &lt;#name#&gt;View = UIView().with { view in
+        view.backgroundColor = &lt;#color#&gt;
+        view.layer.cornerRadius = &lt;#CGFloat#&gt;
+        view.layer.masksToBounds = &lt;#bool#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8C5BAC1E-B9F2-4BBD-8A12-BFE429807535</string>
+	<string>59D56764-8290-4B46-B9A2-0AB6D569E338</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift-initView</string>
+	<string>Swift-let View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

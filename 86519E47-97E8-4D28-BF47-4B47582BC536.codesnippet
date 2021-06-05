@@ -21,10 +21,7 @@
         collectionView.dataSource = self
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints {make in
-            make.right.&lt;#code#&gt;
-            make.top.&lt;#code#&gt;
-            make.bottom.&lt;#code#&gt;
-            make.left.&lt;#code#&gt;
+            make.&lt;#code#&gt;
         }
         return collectionView
     }()</string>

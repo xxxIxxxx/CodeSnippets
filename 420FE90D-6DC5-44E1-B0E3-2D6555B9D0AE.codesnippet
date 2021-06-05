@@ -10,19 +10,19 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>let &lt;#name#&gt;Btn = UIButton(type: .custom)
+&lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
+&lt;#view#&gt;.snp.makeConstraints { make in
+    make.&lt;#code#&gt;
+    make.&lt;#code#&gt;
+    make.&lt;#code#&gt;
+    make.&lt;#code#&gt;
+}
 &lt;#name#&gt;.titleLabel?.font = &lt;#font#&gt;
-&lt;#name#&gt;.setTitle(&lt;#T##title: String?##String?#&gt;, for: &lt;#T##UIControl.State#&gt;)
-&lt;#name#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: &lt;#T##UIControl.State#&gt;)
-&lt;#name#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: &lt;#T##UIControl.State#&gt;)
 &lt;#name#&gt;.layer.cornerRadius = &lt;#double#&gt;
 &lt;#name#&gt;.layer.masksToBounds = true
-        &lt;#superView#&gt;.addSubview(&lt;#name#&gt;)
-        &lt;#view#&gt;.snp.makeConstraints { make in
-            make.&lt;#code#&gt;
-            make.&lt;#code#&gt;
-            make.&lt;#code#&gt;
-            make.&lt;#code#&gt;
-        }</string>
+&lt;#name#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: &lt;#T##UIControl.State#&gt;)
+&lt;#name#&gt;.setTitle(&lt;#T##title: String?##String?#&gt;, for: &lt;#T##UIControl.State#&gt;)
+&lt;#name#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: &lt;#T##UIControl.State#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>420FE90D-6DC5-44E1-B0E3-2D6555B9D0AE</string>
 	<key>IDECodeSnippetLanguage</key>

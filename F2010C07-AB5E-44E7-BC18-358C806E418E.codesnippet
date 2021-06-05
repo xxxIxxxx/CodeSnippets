@@ -17,9 +17,6 @@
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
             make.&lt;#code#&gt;
-            make.&lt;#code#&gt;
-            make.&lt;#code#&gt;
-            make.&lt;#code#&gt;
         }
         return tableView
     }()</string>
