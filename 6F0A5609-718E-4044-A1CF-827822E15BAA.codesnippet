@@ -3,30 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>letLab</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#name#&gt;Lab = UILabel().with { lab in
-        lab.font = &lt;#font#&gt;
-        lab.textColor = &lt;#color#&gt;
-        lab.textAlignment = &lt;#alignment#&gt;
-        lab.numberOfLines = &lt;#Int#&gt;
-        lab.backgroundColor = &lt;#color#&gt;
-    }</string>
+	<string>let disBag = DisposeBag()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7610434A-86EA-4AF4-B0BB-2C6C1432DFEF</string>
+	<string>6F0A5609-718E-4044-A1CF-827822E15BAA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift-let Lab</string>
+	<string>letdis</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
