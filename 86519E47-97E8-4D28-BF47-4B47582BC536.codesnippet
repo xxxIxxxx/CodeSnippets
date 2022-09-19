@@ -19,6 +19,7 @@
         collectionView.backgroundColor = &lt;#color#&gt;
         collectionView.delegate = self
         collectionView.dataSource = self
+        collectionView.alwaysBounceVertical = true
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints {make in
             make.&lt;#code#&gt;
@@ -29,6 +30,8 @@
 	<string>86519E47-97E8-4D28-BF47-4B47582BC536</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>

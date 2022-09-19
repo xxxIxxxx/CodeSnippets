@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>let &lt;#name#&gt;ImgView = UIImageView().with { imgView in
     imgView.contentMode = .scaleAspectFill
-    imgView.layer.masksToBounds = &lt;#bool#&gt;
+    imgView.layer.masksToBounds = true
     imgView.layer.cornerRadius = &lt;#CGFloat#&gt;
 }
 </string>
@@ -19,6 +19,8 @@
 	<string>8BA298D1-CC59-427F-8543-65E18E5047B5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>

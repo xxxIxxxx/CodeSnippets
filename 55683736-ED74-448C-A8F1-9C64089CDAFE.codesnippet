@@ -28,6 +28,8 @@
 	<string>55683736-ED74-448C-A8F1-9C64089CDAFE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>init tableViewCell</string>
 	<key>IDECodeSnippetTitle</key>
